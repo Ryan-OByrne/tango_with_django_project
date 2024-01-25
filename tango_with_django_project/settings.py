@@ -131,3 +131,9 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 #Login
 
 LOGIN_URL = 'rango:login'
+
+#Chapter 10 additions
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 1209600
+
